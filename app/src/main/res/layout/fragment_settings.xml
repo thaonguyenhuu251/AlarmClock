@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/ListLock"
+    tools:context=".fragment.SettingFragment">
+
+    <ImageView
+        android:id="@+id/txtOpenVnFace"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_25sdp"
+        android:src="@drawable/image_vnface"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/txtOpenFacebook"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_25sdp"
+        android:src="@drawable/fb_icon"
+        android:padding="@dimen/_2sdp"
+        app:layout_constraintStart_toEndOf="@+id/txtOpenVnFace"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/txtOpenFacebookNew"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_25sdp"
+        android:src="@drawable/fb_icon"
+        android:padding="@dimen/_2sdp"
+        app:layout_constraintStart_toEndOf="@+id/txtOpenFacebook"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/txtOpenYoutube"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_margin="@dimen/_25sdp"
+        android:padding="@dimen/_2sdp"
+        android:src="@drawable/youtube"
+        app:layout_constraintStart_toEndOf="@+id/txtOpenFacebookNew"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <item
+        android:id="@+id/itemListLock"
+        android:title="Báo thức"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/color_bottom_navigation"
+        android:icon="@drawable/ic_baseline_access_alarms_24"/>
+
+    <item
+        android:id="@+id/itemHomeClock"
+        android:title="Đồng hồ"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/color_bottom_navigation"
+        android:icon="@drawable/ic_baseline_access_time_24" />
+
+    <item
+        android:id="@+id/itemCountUp"
+        android:title="Bộ đếm"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/color_bottom_navigation"
+        android:icon="@drawable/ic_baseline_av_timer_24" />
+
+    <item
+        android:id="@+id/itemCountDown"
+        android:title="Đếm ngược"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/color_bottom_navigation"
+        android:icon="@drawable/ic_baseline_hourglass_empty_24"/>
+
+    <item
+        android:id="@+id/itemSetting"
+        android:title="Cài đặt"
+        app:showAsAction="ifRoom"
+        android:iconTint="@color/color_bottom_navigation"
+        android:icon="@drawable/ic_baseline_settings_suggest_24"/>
+</menu>

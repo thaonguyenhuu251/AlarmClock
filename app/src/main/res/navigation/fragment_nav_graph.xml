@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragmentNavGraph"
+    app:startDestination="@id/itemListLock">
+
+    <fragment
+        android:id="@+id/itemListLock"
+        android:name="com.example.alarmclock.fragment.ListClockFragment"
+        android:label="fragment_list_clock"
+        tools:layout="@layout/fragment_list_clock" >
+        <action
+            android:id="@+id/action_list_Clock_to_home_Clock"
+            app:destination="@id/itemHomeClock" />
+        <action
+            android:id="@+id/action_list_Clock_to_create_Clock"
+            app:destination="@id/createAlarmFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemHomeClock"
+        android:name="com.example.alarmclock.fragment.HomeClockFragment"
+        android:label="fragment_home_clock"
+        tools:layout="@layout/fragment_home_clock" >
+        <action
+            android:id="@+id/action_home_Clock_to_count_Up"
+            app:destination="@id/itemCountUp" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemCountUp"
+        android:name="com.example.alarmclock.fragment.CountUpFragment"
+        android:label="fragment_count_up"
+        tools:layout="@layout/fragment_count_up" >
+        <action
+            android:id="@+id/action_count_Up_to_settings"
+            app:destination="@id/itemSetting" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemCountDown"
+        android:name="com.example.alarmclock.fragment.CountDownFragment"
+        android:label="fragment_count_down"
+        tools:layout="@layout/fragment_count_down" >
+        <action
+            android:id="@+id/action_count_Down_to_list_Clock"
+            app:destination="@id/itemListLock" />
+    </fragment>
+    <fragment
+        android:id="@+id/itemSetting"
+        android:name="com.example.alarmclock.fragment.SettingFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" >
+        <action
+            android:id="@+id/action_settings_to_count_Down"
+            app:destination="@id/itemCountDown" />
+    </fragment>
+    <fragment
+        android:id="@+id/createAlarmFragment"
+        android:name="com.example.alarmclock.CreateAlarm.CreateAlarmFragment"
+        android:label="fragment_create_alarm"
+        tools:layout="@layout/fragment_create_alarm" />
+</navigation>

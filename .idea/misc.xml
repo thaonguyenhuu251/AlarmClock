@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_count_down-DESKTOP-2V6QLM6.xml" value="0.11730072463768115" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_count_own.xml" value="0.1" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_count_up-DESKTOP-2V6QLM6.xml" value="0.11730072463768115" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_create_alarm.xml" value="0.18802083333333333" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_home_clock-DESKTOP-2V6QLM6.xml" value="0.11730072463768115" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_list_clock-DESKTOP-2V6QLM6.xml" value="0.11730072463768115" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_list_clock.xml" value="0.2" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/fragment_settings-DESKTOP-2V6QLM6.xml" value="0.1" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/layout/item_alarm.xml" value="0.18802083333333333" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/menu/menu_top.xml" value="0.1" />
+        <entry key="..\:/OneDrive/ITANDROID/AlarmClock/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round-DESKTOP-2V6QLM6.xml" value="0.178" />
+        <entry key="app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/bg_bottom_nav.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/bg_time.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_back.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/ic_baseline_access_alarms_24.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.16" />
+        <entry key="app/src/main/res/drawable/ic_baseline_cached_24.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_count_time.xml" value="0.1795" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.114" />
+        <entry key="app/src/main/res/drawable/ic_pause.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_pause_time.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/ic_set_alarm.xml" value="0.1295" />
+        <entry key="app/src/main/res/drawable/ic_start_time.xml" value="0.123" />
+        <entry key="app/src/main/res/drawable/roundedbutton.xml" value="0.16" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.34698521046643915" />
+        <entry key="app/src/main/res/layout/activity_ring.xml" value="0.17864583333333334" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.2296875" />
+        <entry key="app/src/main/res/layout/fragment_count_down.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_count_up.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_create_alarm.xml" value="0.300229523369615" />
+        <entry key="app/src/main/res/layout/fragment_home_clock.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_list_clock.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.6150049845377604" />
+        <entry key="app/src/main/res/layout/item_alarm.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/menu/menu_bottom_navigation.xml" value="0.15520833333333334" />
+        <entry key="app/src/main/res/menu/menu_top.xml" value="0.2947916666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
